@@ -164,6 +164,22 @@
     &right]
   </strong>
 </p>
+<h3>Simulation Result</h3>
+<p align="center">
+  <img src="image149.png"
+       alt="Simulink circuit diagaram"
+       width="900">
+</p>
+<p>
+  Connect the <strong>smoothing inductor (L<sub>3</sub> = 0.276 H)</strong> in
+  series with the motor armature and observe the <strong>rectified voltage and
+  current</strong> for a firing angle of <strong>&alpha; = &pi;/2</strong>.
+</p>
+<p align="center">
+  <img src="image143.png"
+       alt="Rectifiedcurrent and voltage waveform with flywheel diode"
+       width="900">
+</p>
 <h3>Experimental Setup</h3>
 <table>
   <thead>
