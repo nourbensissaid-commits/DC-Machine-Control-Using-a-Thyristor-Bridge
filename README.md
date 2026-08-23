@@ -33,7 +33,7 @@
   rectified can be controlled, thereby regulating the output DC voltage and current.
 </p>
 <p align="center">
-  <img src="image158.png"
+  <img src="image167.png"
        alt="DC Machine Control Using a Thyristor Bridge"
        width="900">
 </p>
@@ -212,3 +212,72 @@
     </tr>
   </tbody>
 </table>
+<h3>Continuous and Discontinuous Conduction Modes</h3>
+
+<h4>Continuous Conduction Mode</h4>
+<p>
+  As the <strong>firing angle &alpha;</strong> increases, the average rectified
+  voltage <strong>U<sub>d</sub></strong> decreases because the thyristors conduct
+  for a shorter portion of the input waveform.
+</p>
+
+<p>
+  Consequently, the average current <strong>I<sub>d</sub></strong> also decreases,
+  leading to a reduction in the <strong>machine speed &Omega;</strong>.
+</p>
+<p align="center">
+  <img src="image165.png"
+       alt="Continuous conduction mode"
+       width="700">
+</p>
+
+<h4>Discontinuous Conduction Mode</h4>
+
+<p align="center">
+  <img src="image169.png"
+       alt="Discontinuous conduction mode"
+       width="700">
+</p>
+<h3>Freewheeling Diode Rectifier with DC Machine</h3>
+
+<p>
+  A <strong>freewheeling diode</strong> is connected in parallel with an inductive
+  load to provide a safe path for the stored inductive energy when the main
+  switch or thyristor stops conducting. It prevents dangerous voltage spikes
+  and ensures smoother current flow.
+</p>
+
+<p>
+  In <strong>DC motor control</strong>, the diode protects the switching devices
+  and improves the continuity and stability of the motor current.
+</p>
+<p align="center">
+  <img src="image148.png"
+       alt="Dc motor control"
+       width="700">
+</p>
+<p align="center">
+  <img src="image165.jpg"
+       alt="Rectified current and voltage waveform of the DC motor with flywheel diode"
+       width="700">
+</p>
+<h3>Conclusions</h3>
+
+<ul>
+  <li>
+    <strong>Influence of the firing angle &alpha;:</strong>
+    The firing angle directly affects the power supplied to the DC machine.
+  </li>
+  <li>
+    <strong>Current continuity and overvoltage protection:</strong>
+    Without a freewheeling diode, current interruption during commutation can
+    generate dangerous transient overvoltages. The diode protects the circuit
+    and maintains continuous current flow.
+  </li>
+  <li>
+    <strong>Inverter operation:</strong>
+    A rectifier with a freewheeling diode cannot operate as a
+    <strong>line-commutated inverter</strong>, since the current can only flow
+    in one direction and energy cannot be returned from the load to the AC source.
+  </li>
+</ul>
