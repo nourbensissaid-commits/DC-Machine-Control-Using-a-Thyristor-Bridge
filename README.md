@@ -33,8 +33,8 @@
   rectified can be controlled, thereby regulating the output DC voltage and current.
 </p>
 <p align="center">
-  <img src="image167.jpg"
-       alt="Single-Phase Thyristor Bridge"
+  <img src="image158.png"
+       alt="DC Machine Control Using a Thyristor Bridge"
        width="900">
 </p>
 <p>
@@ -91,7 +91,7 @@
   </li>
 </ul>
 <p align="center">
-  <img src="image166.jpg"
+  <img src="image166.png"
        alt="continuous conduction mode rectified voltage and current waveforms"
        width="900">
 </p>
@@ -132,7 +132,7 @@
   </li>
 </ul>
 <p align="center">
-  <img src="image151.jpg"
+  <img src="image151.png"
        alt="Discontinuous conduction mode rectified voltage and current waveforms"
        width="900">
 </p>
