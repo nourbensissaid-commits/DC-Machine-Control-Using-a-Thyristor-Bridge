@@ -226,7 +226,7 @@
   leading to a reduction in the <strong>machine speed &Omega;</strong>.
 </p>
 <p align="center">
-  <img src="image165.png"
+  <img src="image165.jpg"
        alt="Continuous conduction mode"
        width="700">
 </p>
@@ -234,7 +234,7 @@
 <h4>Discontinuous Conduction Mode</h4>
 
 <p align="center">
-  <img src="image169.png"
+  <img src="image169.jpg"
        alt="Discontinuous conduction mode"
        width="700">
 </p>
